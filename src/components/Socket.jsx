@@ -3,7 +3,7 @@ import { io } from "socket.io-client";
 import "./Socket.css";
 import { RiWechat2Line } from "react-icons/ri";
 
-const socket = io("http://192.168.215.111:3000");
+const socket = io("IP Address");
 
 function Socket() {
   const [username, setUsername] = useState("");
